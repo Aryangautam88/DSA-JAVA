@@ -1,14 +1,12 @@
-import java.util.Collections;
 import java.util.PriorityQueue;
 
-public class  kthSmallestElement {
+public class Y_Return_K_largest_Elements {
 
     public static void main(String[] args) {
 
-        int[] arr = {2,4,1,5,-2,-4,-9,22};
-        int k = 1  ;
-
-        PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
+        int[] arr = {7,10,4,3,20,15};
+        int k = 1;
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
 
         for(int ele : arr){
             pq.add(ele);
@@ -17,7 +15,8 @@ public class  kthSmallestElement {
             }
         }
 
-
         System.out.println(pq.peek());
+
     }
+
 }
