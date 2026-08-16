@@ -4,7 +4,7 @@ public class Y_Nearest_Greater_to_right {
 
     public static void main(String[] args) {
 
-        int[] arr = {1,3,2,4};
+        int[] arr = {4,5,25,2};
         int[] ans = new int[arr.length];
 
         Stack<Integer> st = new Stack<>();

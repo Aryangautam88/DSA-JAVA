@@ -27,8 +27,8 @@ public class Y_Sum_of_Elements_between_k1_smallest_and_k2_smallest_numbers {
         int sum=0;
 
         PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
-        for(int i = 0 ; i<arr.length ; i++){
-            pq.add(arr[i]);
+        for(int ele :arr){
+            pq.add(ele);
         }
         x = kthSmallest(arr,k1);
         y = kthSmallest(arr,k2);
